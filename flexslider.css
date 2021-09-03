@@ -62,7 +62,7 @@
 .flexslider .slides img {
   width: 100%;
   display: block;
-  animation: scale 7.01s infinite;
+  animation: scale 7s infinite;
 }
 .flexslider .slides:after {
   content: "\0020";
