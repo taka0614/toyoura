@@ -145,6 +145,31 @@ header img {
       padding: 5%;
   }
 
+  .news {
+      margin-top: 12%;
+  }
+
+  .news_contents {
+      padding: 5%;
+      background-image: url(img/xsCHjUtg.png);
+      background-color: rgba(255,255,255,.5);
+      background-blend-mode: lighten;
+  }
+
+  .news_content {
+      margin-bottom: 5%;
+  }
+
+  .news_date {
+    margin-bottom: 1%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .news_title {
+    margin: 2%;
+  }
+
   .institution_info {
       margin-top: 12%;
   }
@@ -212,6 +237,7 @@ header img {
       width: 80%;
       height: 230px;
       object-fit: cover;
+      box-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
   }
   
   .contents_text {
