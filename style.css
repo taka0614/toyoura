@@ -32,6 +32,7 @@ header img {
     cursor: pointer;
     text-align: center;
   }
+
   .hamburger span {
     display : block;
     position: absolute;
@@ -43,12 +44,15 @@ header img {
     -moz-transition   : 0.3s ease-in-out;
     transition        : 0.3s ease-in-out;
   }
+
   .hamburger span:nth-child(1) {
     top: 10px;
   }
+
   .hamburger span:nth-child(2) {
     top: 20px;
   }
+
   .hamburger span:nth-child(3) {
     top: 30px;
   }
@@ -120,8 +124,6 @@ header img {
     }
   }
   
-  
-  
   nav.globalMenuSp.active ul li {
     animation: delay 1s forwards;
   }
@@ -171,7 +173,7 @@ header img {
     top: 0;
     left: 0;
     width: 100%;
-    height: 101vh;
+    height: 100vh;
     object-fit: cover;
     z-index: 3;
   }
