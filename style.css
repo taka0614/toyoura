@@ -224,8 +224,7 @@ header img {
 
   .news_contents {
       padding: 5%;
-      background-image: url(img/xsCHjUtg.png);
-      background-color: rgba(255,255,255,.5);
+      background-color: #f5f5f5;
       background-blend-mode: lighten;
   }
 
