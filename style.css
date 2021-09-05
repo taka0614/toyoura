@@ -61,7 +61,7 @@ header img {
   .hamburger.active span:nth-child(1) {
     top : 16px;
     left: 6px;
-    background :#fff;
+    background :#555;
     -webkit-transform: rotate(-45deg);
     -moz-transform   : rotate(-45deg);
     transform        : rotate(-45deg);
@@ -70,7 +70,7 @@ header img {
   .hamburger.active span:nth-child(2),
   .hamburger.active span:nth-child(3) {
     top: 16px;
-    background :#fff;
+    background :#555;
     -webkit-transform: rotate(45deg);
     -moz-transform   : rotate(45deg);
     transform        : rotate(45deg);
@@ -82,7 +82,7 @@ header img {
     top  : 0;
     left : 0;
     color: #fff;
-    background: rgba(0,0,0,1);
+    background: #fff;
     text-align: center;
     width: 100%;
     transform: translateX(-100%);
