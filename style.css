@@ -124,33 +124,30 @@ header img {
     }
   }
   
-  nav.globalMenuSp.active ul li {
-    animation: delay 1s forwards;
-  }
-  
   nav.globalMenuSp.active ul li:nth-of-type(1) {
     background-image: url(img/11095.jpg);
     background-position: top;
-  }
-
-  nav.globalMenuSp.active ul li:nth-of-type(2) {
-    background-image: url(img/6031cb98c38b9f4955c4522693dae1ba_a65fdb9180ed1378f9d582086bce4f80.jpg);
     animation: delay 1s .2s forwards;
   }
 
-  nav.globalMenuSp.active ul li:nth-of-type(3) {
+  nav.globalMenuSp.active ul li:nth-of-type(2) {
     background-image: url(img/87fd25e9e12ab45c1a3223519e84a0cb_7a508d4f360e0de2b6a9cb76639e11e7.jpg);
     animation: delay 1s .4s forwards;
+  }
+  
+  nav.globalMenuSp.active ul li:nth-of-type(3) {
+    background-image: url(img/6031cb98c38b9f4955c4522693dae1ba_a65fdb9180ed1378f9d582086bce4f80.jpg);
+    animation: delay 1s .6s forwards;
   }
 
   nav.globalMenuSp.active ul li:nth-of-type(4) {
     background-image: url(img/323ae57111f287f9cca4bece9e2588c2_eaa2b17ab479510b8a137ab8f2a7bbd5.jpg);
-    animation: delay 1s .6s forwards;
+    animation: delay 1s .8s forwards;
   }
 
   nav.globalMenuSp.active ul li:last-child {
     background-image: url(img/e56ac50b951122a1056848c3844eb4c1_a10823307e8c30a6d4241e0a689978ae.jpg);
-    animation: delay 1s .8s forwards;
+    animation: delay 1s 1s forwards;
     border-bottom: solid 5px;
     padding-bottom: 0;
   }
@@ -197,8 +194,22 @@ header img {
     animation: slide .5s forwards;
   }
 
+  .img_wrap {
+    text-align: center;
+    position: relative;
+  }
+  
+  .information img {
+    width: 100%;
+  }
+
+  img.harvest_img {
+    width: 80%;
+  }
+
   .information {
       text-align: center;
+      margin-top: 15%;
   }
 
   .main_title {
@@ -207,10 +218,6 @@ header img {
       font-family: monospace;
       margin-bottom: 5%;
       text-align: center;
-  }
-
-  .information img {
-      width: 100%;
   }
 
   .text {
@@ -260,10 +267,6 @@ header img {
       margin-top: 15%;
   }
 
-  .img_wrap {
-      position: relative;
-  }
-
   .institution_info img {
       width: 100%;
   }
@@ -309,7 +312,7 @@ header img {
 
   .institution_contents {
       text-align: center;
-      margin: 5% auto;
+      margin: 15% auto;
   }
 
   .contents_title {
@@ -381,3 +384,28 @@ footer p {
     bottom: 15px;
     z-index: 4;
 }
+
+.main_title small {
+  font-size: 14px;
+}
+
+.menu {
+  margin: 15% auto;
+}
+
+.menu_img {
+  width: 80%;
+}
+
+.menu_title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5% auto 3%;
+}
+
+.price {
+  text-align: right;
+  margin-right: 5%;
+  font-size: 18px;
+}
+

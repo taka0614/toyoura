@@ -45,6 +45,8 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+  width: 100%;
+  height: 100vh;
 }
 .flexslider .slides > li {
   display: none;
@@ -52,7 +54,7 @@
 }
 
 .flexslider .slides img {
-  object-fit: none;
+  object-fit: cover;
   width: 100%;
   height: 100vh;
   display: block;
